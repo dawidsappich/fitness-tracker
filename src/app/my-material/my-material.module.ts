@@ -7,8 +7,8 @@ import {
   MatIconModule,
   MatInputModule,
   MatListModule,
-  MatNativeDateModule, MatProgressSpinnerModule, MatSelectModule,
-  MatSidenavModule, MatTabsModule,
+  MatNativeDateModule, MatPaginatorModule, MatProgressSpinnerModule, MatSelectModule,
+  MatSidenavModule, MatSortModule, MatTableModule, MatTabsModule,
   MatToolbarModule
 } from '@angular/material';
 
@@ -16,11 +16,11 @@ import {
   declarations: [],
   imports: [MatButtonModule, MatIconModule, MatFormFieldModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatCheckboxModule,
     MatSidenavModule, MatToolbarModule, MatListModule, MatTabsModule, MatCardModule, MatSelectModule, MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule, MatTableModule, MatSortModule, MatPaginatorModule
   ],
   exports: [MatButtonModule, MatIconModule, MatFormFieldModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatCheckboxModule,
     MatSidenavModule, MatToolbarModule, MatListModule, MatTabsModule, MatCardModule, MatSelectModule, MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule, MatTableModule, MatSortModule, MatPaginatorModule
   ]
 })
 export class MyMaterialModule {
